@@ -1,5 +1,5 @@
 # tests/test_app.py
-from app import greet
+from ..app import greet
 
 def test_greet():
     assert greet() == "Hello, World!"
