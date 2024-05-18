@@ -33,5 +33,7 @@ jobs:
         ls -R tests
 
     - name: Run tests
+      env:
+        PYTHONPATH: .
       run: |
         pytest -v
