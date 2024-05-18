@@ -1,4 +1,3 @@
-# app.py
 def intro():
     return "Hello World!"
 

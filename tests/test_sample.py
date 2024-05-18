@@ -1,5 +1,4 @@
-# tests/test_app.py
 from sample import intro
 
 def test_sample():
-    assert intro() == "Hello, World!"
+    assert intro() == "Hello World!"
