@@ -30,6 +30,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: List files for debugging
+      run: |
+          ls -R
+          pwd  # Print current directory
+      
+
     # Step 4: Run tests using pytest
     - name: Run tests
       run: |
