@@ -1,4 +1,6 @@
-from sample import intro
+from flask import Flask
+app = Flask(__name__)
 
-def test_sample():
-    assert intro() == "Hello World!"
+@app.route("/")
+def hello():
+    return "Hello World!\n"
